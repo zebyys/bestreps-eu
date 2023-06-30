@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Toate produsele</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <!--<div class ="header">-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logobestreps.png" width="250px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Acasa</a></li>
+                         <li><a href="products.html">Produse</a></li>
+                         <li><a href="index.html#offer">Despre noi</a></li>
+                         <li><a href="index.html#contact">Contact</a></li>
+                         <li><a href="account.html">Conturi</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+           
+        </div>
+    <!--</div>-->
+    
+        
+        <!------------------------------ Single product details------------------------------>
+        <div class="small-container single-product">
+            
+            
+            <!--<h2 class="title" >Featured Products</h2>-->
+            <div class="row">
+                    <div class="col-2">
+                        <img src="images/adidasi/jordan-4-pure-money-lateral.webp" width="100%" id="productImg">
+                        
+                        
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="images/pozeirl/IMG_2694.jpg" width="100%" class="small-img">
+                            </div>
+                             <div class="small-img-col">
+                                <img src="images/pozeirl/IMG_2696.jpg" width="100%" class="small-img">
+                            </div>
+                             <div class="small-img-col">
+                                <img src="images/pozeirl/IMG_2697.jpg" width="100%" class="small-img">
+                            </div>
+                             <div class="small-img-col">
+                                <img src="images/pozeirl/IMG_2700.jpg" width="100%" class="small-img">
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-2">
+                        <p>Acasa / Adidasi</p>
+                        <h1>Air Jordan 4 Retro 'Pure Money'</h1>
+                        <h4>600.00 RON</h4>
+                        <select>
+                            <option>Select Size</option>
+                            <option>42<!--Small (s)--></option>
+                        </select>
+                        <input type="number" values="1">
+                        <a href="cart.html" class="btn">Adauga in cos</a>
+                        <h3>Detalii produs <i class="fa fa-indent" ></i></h3>
+                        <br>
+                        <p>Jordan 4 Retro Pure Money este o pereche de încălțări sport fabricate de brandul Jordan, în colaborare cu Nike. Aceste încălțări fac parte din seria Jordan Retro, care reprezintă reeditări ale modelelor clasice Jordan.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+        <!----------------------------------Title------------------------------------->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <a href="products.html"><p>View More</p></a>
+            </div>
+        </div>
+                
+        <!----------------------------------products------------------------------------->
+        <div class="small-container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="jordan4puremoney.html"><img src="images/adidasi/jordan-4-pure-money-lateral.webp"></a>
+                    <a href="jordan4puremoney.html"><h4>Air Jordan 4 Retro 'Pure Money'</h4></a>
+                    <div class="rating">
+                        <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p>600.00 RON</p>
+                </div>
+                <div class="col-4">
+                    <a href="airforce1.html"><img src="images/adidasi/nike-air-force-1-lateral.webp"></a>
+                    <a href="airmax97.html"><h4>Nike Air Force 1 '07</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p>250.00 RON</p>
+                </div>
+                <div class="col-4">
+                    <a href="airmax97.html"><img src="images/adidasi/silver-bullets-nike-air-max-97-lateral.webp"></a>
+                    <a href="airmax97.html"><h4>Nike Air Max 97 'Silver Bullet'</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p>300.00 RON</p>
+                </div>
+                <div class="col-4">
+                    <a href="yeezyboost350baw.html"><img src="images/adidasi/yeezy-boost-350-v2-black-and-white-bars.webp"></a>
+                    <a href="yeezyboost350baw.html"><h4>Adidas Yeezy Boost 350 v2 Black and White Bars</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                    </div>
+                    <p>450.00 RON</p>
+                </div>  
+            </div>
+        </div>
+
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Contacteaza-ne!</h3>
+                    <p>Contacteaza-ne pe Olx de pe orice platforma Windows/MacOS/Android/iOS</p>
+                    <div class="app-logo">
+                       <a href="https://play.google.com/store/apps/details?id=ro.mercador&hl=en&gl=US"> <img src="images/play-store.png"> </a>
+                       <a href="https://apps.apple.com/ro/app/olx-cump%C4%83r%C4%83-%C8%99i-vinde/id653399343"> <img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logobestreps.png">
+                    <p>Scopul nostru este de a face în mod durabil plăcerea și beneficiile sportului accesibile pentru mulți.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Cupoane</li>
+                       <li>Blog Post</li>
+                       <li>Politica de retur</li>
+                       <li>Devino afiliat</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Urmareste-ne</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <a href="https://www.olx.ro/oferte/user/nJMK8/"> <li>Olx</li> </a>
+                       <li>Instagram</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">© Copyright 2023 - BestReps.eu ~ All rights reserved</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+        
+        <!-----------------------js for product gallery-------------------->
+        
+        <script>
+            var productImg=document.getElementById("productImg");
+            var smallImg=document.getElementsByClassName("small-img");
+            
+            smallImg[0].onclick=function(){
+                productImg.src=smallImg[0].src;
+            }
+             smallImg[1].onclick=function(){
+                productImg.src=smallImg[1].src;
+            }
+              smallImg[2].onclick=function(){
+                productImg.src=smallImg[2].src;
+            }
+               smallImg[3].onclick=function(){
+                productImg.src=smallImg[3].src;
+            }
+            
+            
+        </script>
+    </body>
+</html>
